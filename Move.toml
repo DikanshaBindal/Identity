@@ -1,0 +1,15 @@
+[package]
+name = "identity"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x46a868d6c979af34a7f664ec7a84f0507bcb21be4f61a0f0e4af397d20238b04"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
